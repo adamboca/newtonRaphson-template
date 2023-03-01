@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Newton-Raphson Unit Test",
-      "run": "python3 newtonRaphson_unit.pyo",
+      "run": "python newtonRaphson_unit.pyo",
       "input": "",
       "output": "Function has passed all unit tests.",
       "comparison": "exact",

@@ -1,4 +1,4 @@
-# eas501-newtonRaphson
+# newtonRaphson
 
 Write a python function with a call of `x = newtonRaphson(g, x0, eps, delta, itermax)` which used the Newton-Raphson method which returns the root of a function `g`. The inputs are:
  - `g`: A function which returns `f, fx = g(x)` where `f` is the function value and `fx` is the function derivative evaluated at `x`.

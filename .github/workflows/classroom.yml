@@ -12,9 +12,10 @@ jobs:
     name: Autograding
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Create cleanup script
-        run: echo "rm -rf $PWD" > /cleanup.sh
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
       - name: Clone unit test repo
         run: git clone https://github.com/UB-EAS501/unitTests.git
       - name: Copy unit tests

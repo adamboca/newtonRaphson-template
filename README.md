@@ -11,7 +11,7 @@ Write a python function with a call of `x = newtonRaphson(g, x0, eps, delta, ite
 
 # Information regarding unit tests and autograding
 
-- You can test your code by running `python newtonRaphson_unit.py` in the same directory as your `newtonRaphson.py` file.
+- You can test your code by running `python newtonRaphson_unit.py0` in the same directory as your `newtonRaphson.py` file. The unit test is located at https://github.com/UB-EAS501/unitTests.
 - The autograder will use a unit test that is obtained externally. 
 - If your commit does not pass the autograder you will receive an email stating so.
 - To check status of the autograder perform the following steps in GitHub:
